@@ -1,6 +1,6 @@
 
 function requestLogger (req, res, next) {
-  console.log(`Request logged: ${req.method} ${req.path}`)
+  console.log(`request logged: ${req.method} ${req.path}`)
   next()
 }
 

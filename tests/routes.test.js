@@ -13,7 +13,7 @@ describe('Routes', () => {
     expect(res.body).toHaveProperty('msg')
   })
 
-  it('should create new post', async () => {
+  it('should receive a response', async () => {
     const res = await request(app).get('/')
     expect(res.statusCode).toBe(200)
     expect(res.body).toHaveProperty('msg')
