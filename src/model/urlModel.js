@@ -17,6 +17,14 @@ const urlDataSchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  successfulRedirects: {
+    type: Number,
+    required: true
+  },
+  failedRedirects: {
+    type: Number,
+    required: true
+  },
   status: {
     type: String,
     required: true
