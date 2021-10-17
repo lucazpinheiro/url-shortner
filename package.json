@@ -23,6 +23,7 @@
     "nodemon": "^2.0.13"
   },
   "dependencies": {
+    "crc32": "^0.2.2",
     "express": "^4.17.1"
   }
 }
